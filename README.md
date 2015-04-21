@@ -8,11 +8,9 @@ This Framework parses the GPX from a URL or Strings and create Objective-C Insta
 How to build?
 ---------------------------------
 
-1. Install the [iOS Universal Framework](https://github.com/kstenerud/iOS-Universal-Framework).
+1. Open up the GPX project (GPX.xcodeproj) in Xcode 6.
 
-2. Open up the GPX project (GPX.xcodeproj) in Xcode 4.
-
-3. Click Product > Build in the menu bar.
+2. Click Product > Build in the menu bar.
 
 
 How to use framework in my project?
