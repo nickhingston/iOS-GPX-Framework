@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		01867C721AE6950200C6EE92 /* GPX.h in Headers */ = {isa = PBXBuildFile; fileRef = 01867C711AE6950200C6EE92 /* GPX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01867C781AE6950200C6EE92 /* GPX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01867C6D1AE6950200C6EE92 /* GPX.framework */; };
-		01867C7F1AE6950200C6EE92 /* GPXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01867C7E1AE6950200C6EE92 /* GPXTests.m */; };
 		01867C861AE6958500C6EE92 /* GPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EFA152ED11700C9A168 /* GPXParser.m */; };
 		01867C871AE6958500C6EE92 /* GPXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F12152ED11700C9A168 /* GPXXML.m */; };
 		01867C881AE6958500C6EE92 /* GPXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EEB152ED11700C9A168 /* GPXConst.m */; };
@@ -71,14 +70,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01867C5A1AE68D1F00C6EE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01867C5B1AE68D1F00C6EE92 /* GPX_Tests2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPX_Tests2.m; sourceTree = "<group>"; };
 		01867C6D1AE6950200C6EE92 /* GPX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01867C701AE6950200C6EE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01867C711AE6950200C6EE92 /* GPX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPX.h; sourceTree = "<group>"; };
 		01867C771AE6950200C6EE92 /* GPXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01867C7D1AE6950200C6EE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01867C7E1AE6950200C6EE92 /* GPXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPXTests.m; sourceTree = "<group>"; };
 		131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mystic_basin_trail.gpx; sourceTree = "<group>"; };
 		13D46EB3152ECF2400C9A168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13D46EB7152ECF2400C9A168 /* GPX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPX-Info.plist"; sourceTree = "<group>"; };
@@ -157,23 +152,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01867C581AE68D1F00C6EE92 /* GPX Tests2 */ = {
-			isa = PBXGroup;
-			children = (
-				01867C5B1AE68D1F00C6EE92 /* GPX_Tests2.m */,
-				01867C591AE68D1F00C6EE92 /* Supporting Files */,
-			);
-			path = "GPX Tests2";
-			sourceTree = "<group>";
-		};
-		01867C591AE68D1F00C6EE92 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				01867C5A1AE68D1F00C6EE92 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		01867C6E1AE6950200C6EE92 /* GPX */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,31 +169,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01867C7B1AE6950200C6EE92 /* GPXTests */ = {
-			isa = PBXGroup;
-			children = (
-				01867C7E1AE6950200C6EE92 /* GPXTests.m */,
-				01867C7C1AE6950200C6EE92 /* Supporting Files */,
-			);
-			path = GPXTests;
-			sourceTree = "<group>";
-		};
-		01867C7C1AE6950200C6EE92 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				01867C7D1AE6950200C6EE92 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13D46EA1152ECF2400C9A168 = {
 			isa = PBXGroup;
 			children = (
 				13D46EB5152ECF2400C9A168 /* GPX */,
 				13D46ECD152ECF2400C9A168 /* GPXTests */,
-				01867C581AE68D1F00C6EE92 /* GPX Tests2 */,
 				01867C6E1AE6950200C6EE92 /* GPX */,
-				01867C7B1AE6950200C6EE92 /* GPXTests */,
 				13D46EB2152ECF2400C9A168 /* Frameworks */,
 				13D46EB1152ECF2400C9A168 /* Products */,
 			);
@@ -492,7 +451,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01867C7F1AE6950200C6EE92 /* GPXTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

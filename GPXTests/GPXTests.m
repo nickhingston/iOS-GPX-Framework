@@ -9,19 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "GPXTests.h"
 #import <GPX/GPX.h>
-#import "GPXParser.h"
-#import "GPXRoot.h"
-#import "GPXAuthor.h"
-#import "GPXLink.h"
-#import "GPXMetadata.h"
-#import "GPXEmail.h"
-#import "GPXCopyright.h"
-#import "GPXWaypoint.h"
-#import "GPXRoute.h"
-#import "GPXRoutePoint.h"
-#import "GPXTrack.h"
-#import "GPXTrackPoint.h"
-#import "GPXTrackSegment.h"
 
 @implementation GPXTests
 
