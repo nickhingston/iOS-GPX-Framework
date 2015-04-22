@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		01867CE21AE6B0B400C6EE92 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01867CE31AE6B0B400C6EE92 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				01867CEC1AE6B57400C6EE92 /* ShellScript */,
+			);
+			dependencies = (
+				01867CE71AE6B0D600C6EE92 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		01867C721AE6950200C6EE92 /* GPX.h in Headers */ = {isa = PBXBuildFile; fileRef = 01867C711AE6950200C6EE92 /* GPX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01867C781AE6950200C6EE92 /* GPX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01867C6D1AE6950200C6EE92 /* GPX.framework */; };
@@ -32,35 +47,41 @@
 		01867C9A1AE6958500C6EE92 /* GPXPointSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F00152ED11700C9A168 /* GPXPointSegment.m */; };
 		01867C9B1AE6958500C6EE92 /* GPXBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EE9152ED11700C9A168 /* GPXBounds.m */; };
 		01867C9C1AE6964300C6EE92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
-		01867C9D1AE699C400C6EE92 /* GPXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF9152ED11700C9A168 /* GPXParser.h */; };
-		01867C9E1AE699C400C6EE92 /* GPXXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F11152ED11700C9A168 /* GPXXML.h */; };
-		01867C9F1AE699C400C6EE92 /* GPXConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EEA152ED11700C9A168 /* GPXConst.h */; };
-		01867CA01AE699C400C6EE92 /* GPXType.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0D152ED11700C9A168 /* GPXType.h */; };
-		01867CA11AE699C400C6EE92 /* GPXElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EEE152ED11700C9A168 /* GPXElement.h */; };
-		01867CA21AE699C400C6EE92 /* GPXElementSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF0152ED11700C9A168 /* GPXElementSubclass.h */; };
-		01867CA31AE699C400C6EE92 /* GPXRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F01152ED11700C9A168 /* GPXRoot.h */; };
-		01867CA41AE699C400C6EE92 /* GPXMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF7152ED11700C9A168 /* GPXMetadata.h */; };
-		01867CA51AE699C400C6EE92 /* GPXWaypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0F152ED11700C9A168 /* GPXWaypoint.h */; };
-		01867CA61AE699C400C6EE92 /* GPXRoutePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F05152ED11700C9A168 /* GPXRoutePoint.h */; };
-		01867CA71AE699C400C6EE92 /* GPXTrackPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F09152ED11700C9A168 /* GPXTrackPoint.h */; };
-		01867CA81AE699C400C6EE92 /* GPXRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F03152ED11700C9A168 /* GPXRoute.h */; };
-		01867CA91AE699C400C6EE92 /* GPXTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F07152ED11700C9A168 /* GPXTrack.h */; };
-		01867CAA1AE699C400C6EE92 /* GPXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF3152ED11700C9A168 /* GPXExtensions.h */; };
-		01867CAB1AE699C400C6EE92 /* GPXTrackSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0B152ED11700C9A168 /* GPXTrackSegment.h */; };
-		01867CAC1AE699C400C6EE92 /* GPXCopyright.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EEC152ED11700C9A168 /* GPXCopyright.h */; };
-		01867CAD1AE699C400C6EE92 /* GPXLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF5152ED11700C9A168 /* GPXLink.h */; };
-		01867CAE1AE699C400C6EE92 /* GPXEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF1152ED11700C9A168 /* GPXEmail.h */; };
-		01867CAF1AE699C400C6EE92 /* GPXPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EFB152ED11700C9A168 /* GPXPerson.h */; };
-		01867CB01AE699C400C6EE92 /* GPXAuthor.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EE6152ED11700C9A168 /* GPXAuthor.h */; };
-		01867CB11AE699C400C6EE92 /* GPXPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EFD152ED11700C9A168 /* GPXPoint.h */; };
-		01867CB21AE699C400C6EE92 /* GPXPointSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EFF152ED11700C9A168 /* GPXPointSegment.h */; };
-		01867CB31AE699C400C6EE92 /* GPXBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EE8152ED11700C9A168 /* GPXBounds.h */; };
-		01867CB41AE699C400C6EE92 /* GPXTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46ED3152ECF2400C9A168 /* GPXTests.h */; };
+		01867C9D1AE699C400C6EE92 /* GPXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF9152ED11700C9A168 /* GPXParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867C9E1AE699C400C6EE92 /* GPXXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F11152ED11700C9A168 /* GPXXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867C9F1AE699C400C6EE92 /* GPXConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EEA152ED11700C9A168 /* GPXConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA01AE699C400C6EE92 /* GPXType.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0D152ED11700C9A168 /* GPXType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA11AE699C400C6EE92 /* GPXElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EEE152ED11700C9A168 /* GPXElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA21AE699C400C6EE92 /* GPXElementSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF0152ED11700C9A168 /* GPXElementSubclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA31AE699C400C6EE92 /* GPXRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F01152ED11700C9A168 /* GPXRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA41AE699C400C6EE92 /* GPXMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF7152ED11700C9A168 /* GPXMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA51AE699C400C6EE92 /* GPXWaypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0F152ED11700C9A168 /* GPXWaypoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA61AE699C400C6EE92 /* GPXRoutePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F05152ED11700C9A168 /* GPXRoutePoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA71AE699C400C6EE92 /* GPXTrackPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F09152ED11700C9A168 /* GPXTrackPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA81AE699C400C6EE92 /* GPXRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F03152ED11700C9A168 /* GPXRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CA91AE699C400C6EE92 /* GPXTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F07152ED11700C9A168 /* GPXTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CAA1AE699C400C6EE92 /* GPXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF3152ED11700C9A168 /* GPXExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CAB1AE699C400C6EE92 /* GPXTrackSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0B152ED11700C9A168 /* GPXTrackSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CAC1AE699C400C6EE92 /* GPXCopyright.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EEC152ED11700C9A168 /* GPXCopyright.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CAD1AE699C400C6EE92 /* GPXLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF5152ED11700C9A168 /* GPXLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CAE1AE699C400C6EE92 /* GPXEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EF1152ED11700C9A168 /* GPXEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CAF1AE699C400C6EE92 /* GPXPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EFB152ED11700C9A168 /* GPXPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CB01AE699C400C6EE92 /* GPXAuthor.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EE6152ED11700C9A168 /* GPXAuthor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CB11AE699C400C6EE92 /* GPXPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EFD152ED11700C9A168 /* GPXPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CB21AE699C400C6EE92 /* GPXPointSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EFF152ED11700C9A168 /* GPXPointSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01867CB31AE699C400C6EE92 /* GPXBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46EE8152ED11700C9A168 /* GPXBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01867CB51AE69DA600C6EE92 /* mystic_basin_trail.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		01867C791AE6950200C6EE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D46EA3152ECF2400C9A168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01867C6C1AE6950200C6EE92;
+			remoteInfo = GPX;
+		};
+		01867CE61AE6B0D600C6EE92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 13D46EA3152ECF2400C9A168 /* Project object */;
 			proxyType = 1;
@@ -321,7 +342,6 @@
 				01867CB11AE699C400C6EE92 /* GPXPoint.h in Headers */,
 				01867CB21AE699C400C6EE92 /* GPXPointSegment.h in Headers */,
 				01867CB31AE699C400C6EE92 /* GPXBounds.h in Headers */,
-				01867CB41AE699C400C6EE92 /* GPXTests.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +399,9 @@
 					01867C761AE6950200C6EE92 = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					01867CE21AE6B0B400C6EE92 = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = 13D46EA6152ECF2400C9A168 /* Build configuration list for PBXProject "GPX" */;
@@ -395,6 +418,7 @@
 			targets = (
 				01867C6C1AE6950200C6EE92 /* GPX */,
 				01867C761AE6950200C6EE92 /* GPXTests */,
+				01867CE21AE6B0B400C6EE92 /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -416,6 +440,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01867CEC1AE6B57400C6EE92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/GPX-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target GPX ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target GPX -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\ncp -R \"${BUILD_DIR}/Debug-iphoneos/GPX.framework\" \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/GPX.framework/GPX\" \"${BUILD_DIR}/Debug-iphonesimulator/GPX.framework/GPX\" \"${BUILD_DIR}/Debug-iphoneos/GPX.framework/GPX\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01867C681AE6950200C6EE92 /* Sources */ = {
@@ -462,6 +502,11 @@
 			target = 01867C6C1AE6950200C6EE92 /* GPX */;
 			targetProxy = 01867C791AE6950200C6EE92 /* PBXContainerItemProxy */;
 		};
+		01867CE71AE6B0D600C6EE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01867C6C1AE6950200C6EE92 /* GPX */;
+			targetProxy = 01867CE61AE6B0D600C6EE92 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -487,6 +532,7 @@
 		01867C811AE6950200C6EE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -510,10 +556,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -522,6 +571,7 @@
 		01867C821AE6950200C6EE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -543,10 +593,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -604,6 +656,20 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01867CE41AE6B0B400C6EE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01867CE51AE6B0B400C6EE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -693,6 +759,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		01867CE31AE6B0B400C6EE92 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01867CE41AE6B0B400C6EE92 /* Debug */,
+				01867CE51AE6B0B400C6EE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		13D46EA6152ECF2400C9A168 /* Build configuration list for PBXProject "GPX" */ = {
 			isa = XCConfigurationList;
